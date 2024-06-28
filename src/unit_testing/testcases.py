@@ -9,7 +9,7 @@ from pyspark.sql import SparkSession
 # Define the unit test class
 class TestToSnakeCase(unittest.TestCase):
     @classmethod
-    def setUpClass(cls):
+    def setUpClass(cls):.
         cls.spark = SparkSession.builder \
             .master("local[1]") \
             .appName("UnitTest") \
